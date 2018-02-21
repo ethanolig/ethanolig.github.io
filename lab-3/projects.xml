@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<projects>
+	<company>
+		<companyname>Austin's Stuff</companyname>
+		<companyaddress>123 Address Dr</companyaddress>
+		<logo>logo.png</logo>
+		<websiteaddress>www.austinsstuff.com</websiteaddress>
+		<email>email@austinsstuff.com</email>
+		<phone>123-456-7890</phone>
+	</company>
+	<project>
+		<title>
+		</title>
+		<managers>
+			<manager>
+				<firstname>Austin</firstname>
+				<middlename>Joel</middlename>
+				<lastname>Oligario</lastname>
+				<phone>123-456-7891</phone>
+				<email>myemail@email.com</email>
+			</manager>
+		</managers>
+		<teams>
+			<leader>Austin</leader>
+			<developers>Jim</developers>
+			<tester>Joe</tester>
+			<documenters>Jane</documenters>
+		</teams>
+		<clients>
+			<clientname>Billy</clientname>
+			<address>
+				<street>234 Address Dr</street>
+				<city>Toronto</city>
+				<country>Canada</country>
+				<postcode>A1A2B2</postcode>
+			</address>
+			<email>client@email.com</email>
+			<phone>234-567-8901</phone>
+		</clients>
+		<projectdate start="Feb 20" end="Feb 30"></projectdate>
+		<projectcomments>Great progress</projectcomments>
+	</project>
+</projects>
