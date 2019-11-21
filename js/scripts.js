@@ -8,4 +8,3 @@ document.getElementById("mute-button").onclick = function toggleMusic() {
       document.getElementById("bg-music").muted = false;
   }
 }
-/*update*/
