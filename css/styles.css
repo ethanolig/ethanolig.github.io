@@ -35,7 +35,7 @@ tr, th, td {
 }
 
 footer {
-  position: fixed;
+  position: absolute;
   bottom: 0px;
   width: 100%;
 }
