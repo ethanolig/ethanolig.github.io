@@ -3,12 +3,16 @@ header, section, footer, aside, nav, main, article, figure {
 }
 
 body {
-  font-family: Sans-Serif;
+  font-family: Sans-Serif;  
   background-image: url("../images/background.png");
   background-color: #780000;
   background-repeat: no-repeat;
   width: 1920px;
   align: center;
+}
+
+h1, h2, p {
+  color: white;
 }
 
 table, tr, th {
