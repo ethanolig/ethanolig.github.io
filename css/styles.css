@@ -8,14 +8,15 @@ body {
   background-color: #780000;
   background-repeat: no-repeat;
   background-position: center top;
+  background-size: contain;
   max-width: 1200px;
   margin: auto;
-  padding-right: 15px;
-  padding-left: 15px;
 }
 
 h1, h2, p {
   color: white;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 table, tr, th {
