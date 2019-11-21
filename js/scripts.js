@@ -1,4 +1,4 @@
-//file: scripts.js
+//file: scripts.js !
 var music = document.getElementById("bg-music");
 var mute = document.getElementById("mute-button");
 music.volume = 0.25;
