@@ -1,3 +1,4 @@
+/*1*/
 header, section, footer, aside, nav, main, article, figure {
   display: block;
 }
@@ -111,4 +112,3 @@ img {
     padding: 10px 50px;
     font-size: 16px;
 }
-/*2*/
