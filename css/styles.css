@@ -22,8 +22,12 @@ h1, h2, p {
 button {  
 }
 
-table, tr, th {
+tr, th {
   font-weight: normal;
+}
+
+table {
+ width: 100%;
 }
 
 footer {
