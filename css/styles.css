@@ -26,12 +26,9 @@ table {
   padding-right: 15px !important;
 }
 
-td {
-   float: center;
-}
-
 tr, th, td {
   font-weight: normal;
+  float: center;
 }
 
 footer {
