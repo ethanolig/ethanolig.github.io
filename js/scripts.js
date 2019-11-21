@@ -4,7 +4,7 @@ var mute = document.getElementById("mute-button");
 music.volume = 0.25;
 music.muted = false;
 
-//mute.onclick =   
+//mute.onclick =   y
 function toggleMusic() {
   if (document.getElementById("bg-music").muted == false) {
       document.getElementById("bg-music").muted = true;
