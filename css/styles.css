@@ -29,8 +29,10 @@ table, tr, th {
 }
 
 .footer {
-  text-align: right;
+  position: fixed;
+  left: 0px;
   bottom: 0px;
+  width: 100%;
 }
 
 .fake-button {
