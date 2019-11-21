@@ -30,6 +30,7 @@ table, tr, th {
 
 .footer {
   text-align: right;
+  bottom: 0px;
 }
 
 .fake-button {
