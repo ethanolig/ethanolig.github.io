@@ -1,3 +1,4 @@
+//file: scripts.js
 var music = document.getElementById("bg-music");
 
 music.volume = 0.25;
