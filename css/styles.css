@@ -7,8 +7,8 @@ header, section, footer, aside, nav, main, article, figure {
 }
 
 .fake-button {
-  font: bold 11px Arial;
-  text-decoration: none;
+  //font: bold 11px Arial;
+  //text-decoration: none;
   background-color: #EEEEEE;
   color: #333333;
   padding: 2px 6px 2px 6px;
