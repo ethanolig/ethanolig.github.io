@@ -1,6 +1,6 @@
 <script>
-  var music = document.getElementById("music");
-  var mute = document.getElementById("mute");
+  var music = document.getElementById("bg-music");
+  var mute = document.getElementById("mute-button");
 
   music.volume = 0.1;
   music.muted = false;
