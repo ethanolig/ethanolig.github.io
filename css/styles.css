@@ -19,20 +19,14 @@ h1, h2, p {
   padding-right: 15px;
 }
 
-button {  
-}
-
-tr, th {
+table, tr, th {
   font-weight: normal;
-}
-
-table {
   padding-left: 15px;
   padding-right: 15px;
   max-width: 1200px;
   width: 100%;
   margin: auto;
-  border: 1;
+  border: 1px solid black;
 }
 
 footer {
