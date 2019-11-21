@@ -1,0 +1,87 @@
+/*3*/
+header, section, footer, aside, nav, main, article, figure {
+  display: block;
+}
+
+body {
+  font-family: Sans-Serif;  
+  background-image: url("../images/background1.png");
+  background-color: #780000;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1, h2, p {
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+table {  
+  max-width: 1200px;
+  width: 100%;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+tr, th, td {
+  font-weight: normal;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+
+img {
+  border-radius: 8px;
+  object-fit: cover;
+  width:200px;
+  height:200px;
+}
+
+.btn {
+    text-decoration: none;
+    color: #24292e;
+    background-color: #eff3f6;
+    background-image: linear-gradient(-180deg,#fafbfc,#eff3f6 90%);
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-repeat: repeat-x;
+    background-position: -1px -1px;
+    background-size: 110% 110%;
+    border: 1px solid rgba(27,31,35,.2);
+    border-radius: .25em;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #28a745;
+    background-image: linear-gradient(-180deg,#34d058,#28a745 90%);
+}
+
+.shelf-btn {
+    padding: 10px 50px;
+    font-size: 16px;
+}
