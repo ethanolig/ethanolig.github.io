@@ -2,7 +2,13 @@
 <html lang="en-US"> 	
 	<head>	
 		<meta name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1.0"/>
-		<link rel="stylesheet" href="/css/stylesm.css"/> 
+		<link rel="stylesheet" href="./css/stylesm.css"/> 
+		<script type="text/javascript">
+		if (screen.width > 600) {
+			window.location.href = "./index.html";
+		}
+		</script>
+		<link href="https://fonts.googleapis.com/css?family=Londrina+Solid:300|Merienda+One|Satisfy&display=swap" rel="stylesheet"/>
 		<!--
 		Author:			Austin Oligario
 		Filename:		indexm.html
@@ -16,13 +22,13 @@
 			<header>
 				<h1 align="center">Austin's Christmas Wishlist!</h1>
 			</header>
-			<br/>
 			<article>
-				<section>
-					<p align="center">Hello! My name is Austin and this is my Christmas wishlist.</p>
-					<h2 align="center">ITEMS</h2>
+				<section align="center">
+					<p>Hello! My name is Austin and this is my Christmas wishlist.</p>
+					<h2>ITEMS</h2>
+					<hr/>
 					<table>
-						<tr align="center">
+						<tr>
 							<td>	
 								<img src="https://images-na.ssl-images-amazon.com/images/I/71I6cozozUL._AC_UX569_.jpg"/>
 							</td>
@@ -76,10 +82,10 @@
 				</tr>
 			</table>
 			<audio id="bg-music" autoplay loop>
-				<source src="/music/Christmas_Village.mp3" type="audio/mpeg">
+				<source src="./music/Christmas_Village.mp3" type="audio/mpeg">
 			</audio>			
 		</footer>
 	</body>
-	<script src="/js/scripts.js"></script>	
-	<script src="/js/snowfall.js"></script>	
+	<script src="./js/scripts.js"></script>	
+	<script src="./js/snowfall.js"></script>	
 </html>
