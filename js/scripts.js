@@ -2,9 +2,11 @@
 var music = document.getElementById("bg-music");
 var mute = document.getElementById("mute-button");
 music.volume = 0.25;
-music.muted = false;
 
-window.onload = function() { music.play() };
+window.onload = function() {   
+  music.muted = false;
+  music.play();
+}
   
 function toggleMusic() {
   if (music.muted == false) {
