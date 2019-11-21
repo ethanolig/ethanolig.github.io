@@ -36,8 +36,8 @@ footer {
   width: 100%;
 }
 
-#rcorners1 {
-  border-radius: 25px;
+#bottombar {
+  border-radius: 8px;
   background: #73AD21;
   padding: 20px; 
   width: 200px;
