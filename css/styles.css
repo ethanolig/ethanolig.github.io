@@ -22,7 +22,7 @@ h1, h2, p {
 table {  
   max-width: 1200px;
   width: 100%;
-  padding-left: 15px;
+  padding-left: 15px !important;
   padding-right: 15px;
 }
 
