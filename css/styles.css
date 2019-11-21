@@ -22,6 +22,8 @@ h1, h2, p {
 table {  
   max-width: 1200px;
   width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 tr, th {
@@ -32,12 +34,6 @@ footer {
   position: fixed;
   bottom: 0px;
   width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
-  /*max-width: 1200px;
-  width: 100%;
-  margin: auto;
-  overflow-x: hidden;*/
 }
 
 .btn {
