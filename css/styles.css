@@ -19,6 +19,11 @@ h1, h2, p {
   padding-right: 15px;
 }
 
+button {  
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 table, tr, th {
   font-weight: normal;
 }
