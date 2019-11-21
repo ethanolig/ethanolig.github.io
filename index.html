@@ -3,6 +3,7 @@
 	<head>	
 		<meta name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1.0"/>
 		<link rel="stylesheet" href="./css/styles.css"/> 
+		<script src="./js/scripts.js"></script>
 		<!--
 		Author:			Austin Oligario
 		Filename:		index.html
@@ -40,9 +41,10 @@
 				<br/>
 				Austin Oligario. &copy; 2019
 			</p>
-			<audio autoplay volume="0.1" loop>
+			<audio id="music" autoplay loop>
 				<source src="./music/Christmas_Village.mp3" type="audio/mpeg">
-			</audio>
+			</audio>			
+			<button onclick="toggleMusic()" type="button">Mute Volume</button>
 		</footer>
 	</body>
 </html>
