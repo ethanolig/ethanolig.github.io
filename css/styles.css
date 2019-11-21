@@ -38,10 +38,9 @@ footer {
 
 #bottombar {
   border-radius: 8px;
-  background: #73AD21;
+  background: white;
   padding: 20px; 
-  width: 200px;
-  height: 150px;  
+  height: 50px;  
 }
 
 img {
