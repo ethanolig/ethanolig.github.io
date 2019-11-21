@@ -36,6 +36,13 @@ footer {
   width: 100%;
 }
 
+img {
+  border-radius: 8px;
+  object-fit: cover;
+  width:230px;
+  height:230px;
+}
+
 .btn {
     text-decoration: none;
     color: #24292e;
