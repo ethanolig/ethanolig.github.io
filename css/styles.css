@@ -26,6 +26,10 @@ table {
   padding-right: 15px !important;
 }
 
+td {
+   align: center;
+}
+
 tr, th, td {
   font-weight: normal;
 }
