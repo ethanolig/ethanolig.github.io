@@ -1,14 +1,11 @@
-var music = document.getElementById("bg-music");
-var mute = document.getElementById("mute-button");
+document.getElementById("bg-music").volume = 0.1;
+document.getElementById("bg-music").muted = false;
 
-music.volume = 0.1;
-music.muted = false;
-
-mute.onclick = function toggleMusic() {
-  if (music.muted == false) {
-      music.muted = true;
+document.getElementById("mute-button").onclick = function toggleMusic() {
+  if (document.getElementById("bg-music").muted == false) {
+      document.getElementById("bg-music").muted = true;
   } else {      
-      music.muted = false;
+      document.getElementById("bg-music").muted = false;
   }
 }
 /*update*/
