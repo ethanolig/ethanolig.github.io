@@ -27,7 +27,6 @@ tr, th {
 }
 
 table {
-  width: 100%;  
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -37,6 +36,7 @@ footer {
   bottom: 0px;
   padding-left: 15px;
   padding-right: 15px;
+  width: 100%;
   max-width: 1200px;
   margin: auto;
 }
