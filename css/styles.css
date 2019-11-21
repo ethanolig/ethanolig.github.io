@@ -37,6 +37,7 @@ table, tr, th {
 }
 
 .btn {
+    text-decoration: none;
     color: #24292e;
     background-color: #eff3f6;
     background-image: linear-gradient(-180deg,#fafbfc,#eff3f6 90%);
