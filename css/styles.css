@@ -4,6 +4,9 @@ header, section, footer, aside, nav, main, article, figure {
 
 body {
   font-family: Sans-Serif;
+  background-image: url("../images/background.png");
+  background-color: #780000;
+  width: 1920px;
 }
 
 table, tr, th {
