@@ -20,7 +20,7 @@ h1, h2, p {
 }
 
 table {
-  width: 100%;
+  
 }
 
 tr, th {
@@ -30,6 +30,7 @@ tr, th {
 footer {
   position: fixed;
   bottom: 0px;
+  width: 100%;
   /*padding-left: 15px;
   padding-right: 15px;
   max-width: 1200px;
