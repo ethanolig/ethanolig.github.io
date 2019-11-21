@@ -34,6 +34,9 @@ footer {
   position: absolute;
   bottom: 0px;
   width: 100%;
+}
+
+#rcorners1{
   border-radius: 8px;
   background: white;
   width: 100%;
