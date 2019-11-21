@@ -5,3 +5,7 @@ header, section, footer, aside, nav, main, article, figure {
 .validator {
   text-align: right;
 }
+
+.author-tag {
+  align: right;
+}
