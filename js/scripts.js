@@ -11,3 +11,4 @@ mute.onclick = function toggleMusic() {
       music.muted = false;
   }
 }
+/*update*/
