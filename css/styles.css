@@ -20,9 +20,6 @@ h1, h2, p {
 }
 
 table {
-  /*padding-left: 15px;
-  padding-right: 15px;
-  max-width: 1200px;*/
   width: 100%;
 }
 
@@ -33,12 +30,12 @@ tr, th {
 footer {
   position: fixed;
   bottom: 0px;
-  padding-left: 15px;
+  /*padding-left: 15px;
   padding-right: 15px;
   max-width: 1200px;
   width: 100%;
   margin: auto;
-  /*overflow-x: hidden;*/
+  overflow-x: hidden;*/
 }
 
 .btn {
