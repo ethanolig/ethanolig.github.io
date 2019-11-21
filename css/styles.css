@@ -40,7 +40,9 @@ footer {
   border-radius: 8px;
   background: white;
   padding: 20px; 
-  height: 50px;  
+  width: 100%;
+  height: 35px;  
+  opacity: 0.75;
 }
 
 img {
@@ -48,6 +50,33 @@ img {
   object-fit: cover;
   width:230px;
   height:230px;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
 }
 
 .btn {
