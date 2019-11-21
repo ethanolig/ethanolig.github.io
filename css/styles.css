@@ -19,8 +19,8 @@ h1, h2, p {
   padding-right: 15px;
 }
 
-table {
-  
+table {  
+  width: 100%;
 }
 
 tr, th {
