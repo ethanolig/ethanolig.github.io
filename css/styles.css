@@ -2,6 +2,10 @@ header, section, footer, aside, nav, main, article, figure {
   display: block;
 }
 
+body {
+  font-family: Sans-Serif;
+}
+
 .footer {
   text-align: right;
 }
