@@ -44,6 +44,11 @@ img {
   height:230px;
 }
 
+.container {
+  position: relative;
+  width: 50%;
+}
+
 .image {
   opacity: 1;
   display: block;
@@ -69,6 +74,13 @@ img {
 
 .container:hover .middle {
   opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
 }
 
 .btn {
