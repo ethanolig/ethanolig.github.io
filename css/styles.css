@@ -35,7 +35,7 @@ footer {
   bottom: 0px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: auto;
+  /*margin: auto;*/
   max-width: 1200px;
   overflow-x: hidden;
 }
