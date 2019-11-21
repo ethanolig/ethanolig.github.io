@@ -23,13 +23,11 @@ table {
   max-width: 1200px;
   width: 100%;
   padding-left: 15px !important;
-  padding-right: 15px;
+  padding-right: 15px !important;
 }
 
 tr, th {
   font-weight: normal;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 footer {
