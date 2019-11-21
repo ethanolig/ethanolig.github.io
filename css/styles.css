@@ -28,7 +28,7 @@ table, tr, th {
   font-weight: normal;
 }
 
-.footer {
+footer {
   position: fixed;
   left: 0px;
   bottom: 0px;
