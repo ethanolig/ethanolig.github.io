@@ -6,6 +6,10 @@ body {
   font-family: Sans-Serif;
 }
 
+table, tr, th {
+  font-weight: normal;
+}
+
 .footer {
   text-align: right;
 }
