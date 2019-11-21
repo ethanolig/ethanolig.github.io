@@ -8,12 +8,14 @@ window.onload = function() {
   music.play();
 }
   
+function isPlaying(music) { return !music.paused; }
+
 function toggleMusic() {
-  if (music.muted == false) {
-      music.muted = true;
+  if (isPlaying(music)) {
+      music.pause();
       mute.innerHTML = "Unmute";
   } else {      
-      music.muted = false;  
+      music.play();
       mute.innerHTML = "Mute";
   }
 }
