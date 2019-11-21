@@ -1,13 +1,13 @@
 //file: scripts.js
 var music = document.getElementById("bg-music");
-
 music.volume = 0.25;
-music.muted = false;
 
 function toggleMusic() {
-  if (document.getElementById("bg-music").muted == false) {
-      document.getElementById("bg-music").muted = true;
+  if (music.muted == false) {
+      music.muted = true;
+      music.innerHTML = "Unmute";
   } else {      
-      document.getElementById("bg-music").muted = false;
+      music.muted = false;  
+      music.innerHTML = "Mute";
   }
 }
