@@ -130,7 +130,7 @@ button {
 
 .overlay {
   position: absolute;
-  bottom: 0;
+  bottom: 5px;
   left: 50%;
   right: 0;
   background-color: #28a745;
