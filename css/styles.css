@@ -130,7 +130,7 @@ button {
 
 .overlay {
   position: absolute;
-  bottom: 5px;
+  bottom: 4px;
   left: 50%;
   right: 0;
   opacity: 0.9;
@@ -144,7 +144,7 @@ button {
 }
 
 .container:hover .overlay {
-  height: 245px;
+  height: 247px;
 }
 
 .overlay-text {
