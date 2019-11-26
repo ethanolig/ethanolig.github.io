@@ -128,23 +128,19 @@ button {
   width: 100%;
 }
 
-.image {
-  display: block;
-  height: auto;
-}
-
 .overlay {
   position: absolute;
   bottom: 0;
   left: 50%;
   right: 0;
-  background-color: #780000;
+  background-color: #28a745;
   opacity: 0.85;
   overflow: hidden;
   width: 250px;
   margin-left: -125px;
   height: 0;
   transition: .5s ease;
+  border-radius: 8px;
 }
 
 .container:hover .overlay {
